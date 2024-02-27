@@ -1,0 +1,212 @@
+/* background kleur van alle pages  */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/*  navbar  */
+.navbar {
+  background-color: #e90b0b;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 10px;
+  
+}
+
+/* navbar effect */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Populaire Producten Container */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* space between producten etc... */
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: -50px;
+}
+
+.product-card {
+  width: 23%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* index.html css code  */
+
+.container3 {
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.media {
+  height: 60%;
+  width: 80%;
+}
+
+.media2 {
+  height: 10%;
+  /* width: 20%; */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+a:hover {
+  text-decoration: solid;
+  color: yellow;
+}
+
+p:hover {
+  text-decoration: solid;
+  color: red;
+}
+
+/* winkelwagentje page css code  */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr {
+  background-color: #f5f5f5;
+}
+
+th {
+  background-color: #eb9b9b;
+  color: white;
+}
+
+.total-price {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  margin: 20px 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.airpod {
+  height: 150px;
+  width: 200px;
+}
+
+/* Inloggevens */
+.one {
+  background-color: rgb(219, 32, 32);
+  color: aliceblue;
+  text-align: center;
+}
+
+.body12 {
+  font-size: 16px;
+  font-family: "font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, Arial, sans-serif";
+}
+
+.two {
+  font-size: larger;
+}
+
+form {
+  font-size: larger;
+}
+.three {
+  font-size: 80%;
+}
+button {
+  font-size: 80%;
+}
+.aanmelden {
+  color: black;
+}
+
+.wachtwoord {
+  color: black;
+}
+
+/*  Dividednt line to see the truth
+
+Dividednt line to see the truth
+
+Dividednt line to see the truth
+
+Dividednt line to see the truth
+*/
+
+
+span.price {
+	color: #333;
+}
